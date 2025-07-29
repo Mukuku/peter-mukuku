@@ -1,0 +1,818 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Peter Mukuku - Data Analyst</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&display=swap');
+        body { font-family: 'Inter', sans-serif; }
+        .gradient-bg { background: linear-gradient(135deg, #667eea 0%, #764ba2 100%); }
+        .card-hover { transition: all 0.3s ease; }
+        .card-hover:hover { transform: translateY(-5px); box-shadow: 0 20px 40px rgba(0,0,0,0.1); }
+        .skill-bar { transition: width 1s ease-in-out; }
+        .animate-fade-in { animation: fadeIn 0.8s ease-in; }
+        @keyframes fadeIn { from { opacity: 0; transform: translateY(20px); } to { opacity: 1; transform: translateY(0); } }
+    </style>
+</head>
+<body class="bg-gray-50">
+    <!-- Header Section -->
+    <header class="gradient-bg text-white py-16">
+        <div class="container mx-auto px-6 text-center">
+            <div class="animate-fade-in">
+                <div class="w-32 h-32 bg-white rounded-full mx-auto mb-6 flex items-center justify-center shadow-lg">
+                    <i class="fas fa-user text-6xl text-gray-600"></i>
+                </div>
+                <h1 class="text-4xl md:text-5xl font-bold mb-2">Peter Mukuku</h1>
+                <p class="text-xl mb-2">B.TECH, CDA, Member-ISDSA, Member-ICTAZ</p>
+                <p class="text-lg opacity-90 mb-6">Results-Driven Data Analyst</p>
+                <div class="flex flex-wrap justify-center gap-6 text-sm">
+                    <div class="flex items-center">
+                        <i class="fas fa-envelope mr-2"></i>
+                        <span>mukukup@gmail.com</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-phone mr-2"></i>
+                        <span>(260) 979215339</span>
+                    </div>
+                    <div class="flex items-center">
+                        <i class="fas fa-briefcase mr-2"></i>
+                        <span>5+ Years Data Analytics Experience</span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </header>
+
+    <!-- Navigation -->
+    <nav class="bg-white shadow-md sticky top-0 z-50">
+        <div class="container mx-auto px-6">
+            <div class="flex justify-center space-x-6 py-4">
+                <a href="#about" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">About</a>
+                <a href="#experience" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">Experience</a>
+                <a href="#education" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">Education</a>
+                <a href="#projects" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">Projects</a>
+                <a href="#skills" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">Skills</a>
+                <a href="#contact" class="text-gray-700 hover:text-blue-600 transition-colors font-medium">Contact</a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- About Section -->
+    <section id="about" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <div class="max-w-4xl mx-auto">
+                <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Professional Summary</h2>
+                <div class="bg-gray-50 rounded-lg p-8 shadow-sm">
+                    <p class="text-lg leading-relaxed text-gray-700 mb-6">
+                        Results-driven Data Analyst with over 5 years of dedicated experience in Data Analytics across diverse industries, including Ministry of Health-GRZ, Fintech, Manufacturing, Logistics, and Telecommunication. I offer a robust skill set primed for data-driven excellence and proficiency in data management operations.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700 mb-6">
+                        Demonstrated ability to maintain data integrity, improve operational efficiency, and deliver actionable insights. Adept at utilizing various analytical tools and technologies for gathering data from diverse sources to enhance data insights, presentation, and drive business growth.
+                    </p>
+                    <p class="text-lg leading-relaxed text-gray-700">
+                        Detail-oriented and proactive, with keen analytical acumen to navigate complex datasets effectively. Proven track record of maximizing data utility and driving informed decision-making processes.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Experience Section -->
+    <section id="experience" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Professional Experience</h2>
+            <div class="max-w-4xl mx-auto space-y-8">
+                
+                <!-- Current Position -->
+                <div class="bg-white rounded-lg shadow-md p-8 card-hover">
+                    <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800">Strategic Information Assistant</h3>
+                            <p class="text-blue-600 font-medium">Right to Care Zambia – Luapula</p>
+                        </div>
+                        <div class="text-gray-600 mt-2 md:mt-0">
+                            <i class="fas fa-calendar mr-2"></i>
+                            August 2024 - January 2025
+                        </div>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Monitored and reported MER indicators, including HTS_TST (HIV testing services) and TX_CURR</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Managed and ensured quality of health-related data for HIV/AIDS services</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Accurately input client records into SmartCare System ensuring all entries are current</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Compiled and submitted routine reports (daily, weekly, monthly, quarterly) to USAID stakeholders</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Collaborated with healthcare providers to ensure complete documentation and support data-driven decisions</p>
+                        </div>
+                    </div>
+                    <div class="mt-4 p-3 bg-blue-50 rounded-lg">
+                        <p class="text-sm text-blue-800"><strong>Key Indicators:</strong> PrEP_curr, PrEP_new, HTS_Self, Tx_new, Tx_Curr, Tx_PVLS, Tx_RTT, Tx_ML, HTS_TST, HTS_Index</p>
+                    </div>
+                </div>
+
+                <!-- Previous Position -->
+                <div class="bg-white rounded-lg shadow-md p-8 card-hover">
+                    <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800">Power BI Data Analyst</h3>
+                            <p class="text-blue-600 font-medium">Digital Paygo Limited – Lusaka</p>
+                        </div>
+                        <div class="text-gray-600 mt-2 md:mt-0">
+                            <i class="fas fa-calendar mr-2"></i>
+                            March 2023 - March 2024
+                        </div>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Collaborated with data scientists to develop analytics solutions, improving operational efficiency</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Designed and implemented dynamic reports and dashboards using Power BI</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Extracted and analyzed raw data from MySQL and MariaDB databases</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Assisted in data migration and integration across platforms</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Communicated findings to stakeholders through reports and data visualizations</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Manufacturing Experience -->
+                <div class="bg-white rounded-lg shadow-md p-8 card-hover">
+                    <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800">Data Analyst</h3>
+                            <p class="text-blue-600 font-medium">Stenson Industries Manufacturers – Lusaka</p>
+                        </div>
+                        <div class="text-gray-600 mt-2 md:mt-0">
+                            <i class="fas fa-calendar mr-2"></i>
+                            September 2021 - February 2023
+                        </div>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Defined technical specifications and translated business needs into actionable data projects</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Supported data-driven decision-making by collecting, analyzing, and interpreting data</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Assisted in migration and integration of data systems with compliance protocols</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Developed and maintained data environments and automated reporting processes</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Worked closely with ICT to ensure seamless coordination of data environments</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Logistics Experience -->
+                <div class="bg-white rounded-lg shadow-md p-8 card-hover">
+                    <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800">Data Quality Auditor</h3>
+                            <p class="text-blue-600 font-medium">Barthsam Freight Services (Reload Logistics) – Ndola</p>
+                        </div>
+                        <div class="text-gray-600 mt-2 md:mt-0">
+                            <i class="fas fa-calendar mr-2"></i>
+                            April 2021 - August 2021
+                        </div>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Conducted thorough audits of transaction data comparing ZRA ASYCUDA and Salesforce systems</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Ensured compliance with data regulations and quality standards</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Assisted in data science models by gathering and auditing high-quality data</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Created detailed reports and proposed corrective actions based on audit findings</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MTN Data Manager -->
+                <div class="bg-white rounded-lg shadow-md p-8 card-hover">
+                    <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800">Data Manager</h3>
+                            <p class="text-blue-600 font-medium">MTN Mobile Money Limited – Lusaka</p>
+                        </div>
+                        <div class="text-gray-600 mt-2 md:mt-0">
+                            <i class="fas fa-calendar mr-2"></i>
+                            July 2018 - November 2019
+                        </div>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Led initiatives to improve data collection processes, increasing accuracy and operational efficiency</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Designed and maintained Power BI dashboards for business intelligence reporting</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Ensured data integrity during migration into new platforms with compliance requirements</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Conducted training for staff on data analytics tools, improving team performance</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- MTN Data Analyst -->
+                <div class="bg-white rounded-lg shadow-md p-8 card-hover">
+                    <div class="flex flex-col md:flex-row md:items-center md:justify-between mb-4">
+                        <div>
+                            <h3 class="text-xl font-bold text-gray-800">Data Analyst</h3>
+                            <p class="text-blue-600 font-medium">MTN Mobile Money Limited – Lusaka</p>
+                        </div>
+                        <div class="text-gray-600 mt-2 md:mt-0">
+                            <i class="fas fa-calendar mr-2"></i>
+                            January 2017 - June 2018
+                        </div>
+                    </div>
+                    <div class="space-y-3">
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Analyzed datasets using Excel and SPSS, providing actionable insights for business strategies</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Maintained and updated database systems, ensuring data privacy and security</p>
+                        </div>
+                        <div class="flex items-start">
+                            <i class="fas fa-check-circle text-green-500 mr-3 mt-1"></i>
+                            <p class="text-gray-700">Developed reports and dashboards to communicate data insights to stakeholders</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Education Section -->
+    <section id="education" class="py-16 bg-white">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Education & Qualifications</h2>
+            <div class="max-w-4xl mx-auto">
+                <!-- Formal Education -->
+                <div class="mb-12">
+                    <h3 class="text-2xl font-bold mb-8 text-gray-800 flex items-center">
+                        <i class="fas fa-graduation-cap mr-3 text-blue-600"></i>
+                        Formal Education
+                    </h3>
+                    <div class="space-y-6">
+                        <div class="bg-gradient-to-r from-blue-50 to-blue-100 rounded-lg p-6 card-hover">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-university text-2xl text-blue-600 mr-4"></i>
+                                <div>
+                                    <h4 class="text-xl font-bold text-gray-800">Bachelor's Degree of ICT in Information Technology</h4>
+                                    <p class="text-blue-600 font-medium">B.TECH</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700">Comprehensive foundation in information technology, systems analysis, and data management</p>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-green-50 to-green-100 rounded-lg p-6 card-hover">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-chart-line text-2xl text-green-600 mr-4"></i>
+                                <div>
+                                    <h4 class="text-xl font-bold text-gray-800">Diploma in Data Analysis</h4>
+                                    <p class="text-green-600 font-medium">CDA - Certified Data Analyst</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700">Specialized training in statistical analysis, data visualization, and business intelligence</p>
+                        </div>
+
+                        <div class="bg-gradient-to-r from-purple-50 to-purple-100 rounded-lg p-6 card-hover">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-laptop-code text-2xl text-purple-600 mr-4"></i>
+                                <div>
+                                    <h4 class="text-xl font-bold text-gray-800">Diploma in Information Technology</h4>
+                                    <p class="text-purple-600 font-medium">IT Diploma</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700">Technical foundation in computer systems, programming, and database management</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Certifications -->
+                <div>
+                    <h3 class="text-2xl font-bold mb-8 text-gray-800 flex items-center">
+                        <i class="fas fa-certificate mr-3 text-orange-600"></i>
+                        Professional Certifications
+                    </h3>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div class="bg-gradient-to-br from-red-50 to-red-100 rounded-lg p-6 card-hover">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-heartbeat text-xl text-red-600 mr-3"></i>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">PEPFAR MER 2.8 Training</h4>
+                                    <p class="text-red-600 text-sm font-medium">Completed December 2024</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700 text-sm">Advanced healthcare data analysis and reporting for HIV/AIDS programs</p>
+                        </div>
+
+                        <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 card-hover">
+                            <div class="flex items-center mb-3">
+                                <i class="fab fa-r-project text-xl text-blue-600 mr-3"></i>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Certificate in R Programming</h4>
+                                    <p class="text-blue-600 text-sm font-medium">2024</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700 text-sm">Statistical computing and data analysis using R programming language</p>
+                        </div>
+
+                        <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-6 card-hover">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-chart-bar text-xl text-green-600 mr-3"></i>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Certificate in Data Analytics & Gap Analysis</h4>
+                                    <p class="text-green-600 text-sm font-medium">2024</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700 text-sm">Advanced techniques for identifying data gaps and analytical solutions</p>
+                        </div>
+
+                        <div class="bg-gradient-to-br from-yellow-50 to-yellow-100 rounded-lg p-6 card-hover">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-database text-xl text-yellow-600 mr-3"></i>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Certificate in MySQL for Data Analysis</h4>
+                                    <p class="text-yellow-600 text-sm font-medium">2023</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700 text-sm">Database management and SQL querying for analytical purposes</p>
+                        </div>
+
+                        <div class="bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-lg p-6 card-hover">
+                            <div class="flex items-center mb-3">
+                                <i class="fas fa-brain text-xl text-indigo-600 mr-3"></i>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Certificate in Business Intelligence for Consultants</h4>
+                                    <p class="text-indigo-600 text-sm font-medium">2023</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700 text-sm">Strategic BI implementation and consulting methodologies</p>
+                        </div>
+
+                        <div class="bg-gradient-to-br from-teal-50 to-teal-100 rounded-lg p-6 card-hover">
+                            <div class="flex items-center mb-3">
+                                <i class="fab fa-r-project text-xl text-teal-600 mr-3"></i>
+                                <div>
+                                    <h4 class="font-bold text-gray-800">Introduction to R Programming</h4>
+                                    <p class="text-teal-600 text-sm font-medium">2023</p>
+                                </div>
+                            </div>
+                            <p class="text-gray-700 text-sm">Foundational R programming skills for statistical analysis</p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Professional Memberships -->
+                <div class="mt-12 bg-gradient-to-r from-gray-50 to-gray-100 rounded-lg p-6">
+                    <h3 class="text-xl font-bold mb-4 text-gray-800 text-center flex items-center justify-center">
+                        <i class="fas fa-users mr-3 text-gray-600"></i>
+                        Professional Memberships
+                    </h3>
+                    <div class="text-center space-y-3">
+                        <div>
+                            <span class="bg-white px-6 py-3 rounded-full text-lg font-medium text-gray-700 shadow-sm inline-flex items-center">
+                                <i class="fas fa-award mr-2 text-gold-500"></i>
+                                Member - ISDSA (Information Systems Development & Support Association)
+                            </span>
+                        </div>
+                        <div>
+                            <span class="bg-white px-6 py-3 rounded-full text-lg font-medium text-gray-700 shadow-sm inline-flex items-center">
+                                <i class="fas fa-certificate mr-2 text-blue-500"></i>
+                                Member - ICTAZ (Information and Communication Technology Association of Zambia)
+                            </span>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Projects & Portfolio</h2>
+            <div class="max-w-6xl mx-auto">
+                <!-- Projects Grid -->
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-6 mb-12">
+                    <div class="bg-gradient-to-br from-blue-50 to-blue-100 rounded-lg p-6 card-hover">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-shopping-cart text-2xl text-blue-600 mr-3"></i>
+                            <h3 class="text-lg font-bold text-gray-800">E-Commerce Platform</h3>
+                        </div>
+                        <p class="text-gray-700 mb-3">Full-featured e-commerce website with payment integration and inventory management</p>
+                        <a href="http://www.efirstbuy.com" target="_blank" class="text-blue-600 hover:text-blue-800 font-medium flex items-center">
+                            <i class="fas fa-external-link-alt mr-2"></i>
+                            efirstbuy.com
+                        </a>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-green-50 to-green-100 rounded-lg p-6 card-hover">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-heart text-2xl text-green-600 mr-3"></i>
+                            <h3 class="text-lg font-bold text-gray-800">NGO Website</h3>
+                        </div>
+                        <p class="text-gray-700 mb-3">Professional website for non-profit organization with donation and volunteer management</p>
+                        <a href="http://www.liczambia.org" target="_blank" class="text-green-600 hover:text-green-800 font-medium flex items-center">
+                            <i class="fas fa-external-link-alt mr-2"></i>
+                            liczambia.org
+                        </a>
+                    </div>
+
+
+
+                    <div class="bg-gradient-to-br from-indigo-50 to-indigo-100 rounded-lg p-6 card-hover">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-mobile-alt text-2xl text-indigo-600 mr-3"></i>
+                            <h3 class="text-lg font-bold text-gray-800">Mobile App Development</h3>
+                        </div>
+                        <p class="text-gray-700 mb-3">ZICTA ICT Innovators Program - 6 months business development and technical support</p>
+                        <span class="text-indigo-600 font-medium flex items-center">
+                            <i class="fas fa-award mr-2"></i>
+                            ZICTA Supported (2019)
+                        </span>
+                    </div>
+
+                    <div class="bg-gradient-to-br from-teal-50 to-teal-100 rounded-lg p-6 card-hover">
+                        <div class="flex items-center mb-4">
+                            <i class="fas fa-shield-alt text-2xl text-teal-600 mr-3"></i>
+                            <h3 class="text-lg font-bold text-gray-800">BCM Training</h3>
+                        </div>
+                        <p class="text-gray-700 mb-3">Business Continuity Management workshop at Digital Paygo</p>
+                        <span class="text-teal-600 font-medium flex items-center">
+                            <i class="fas fa-calendar mr-2"></i>
+                            October 10-11, 2023
+                        </span>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Skills Section -->
+    <section id="skills" class="py-16 bg-gray-50">
+        <div class="container mx-auto px-6">
+            <h2 class="text-3xl font-bold text-center mb-12 text-gray-800">Technical Skills</h2>
+            <div class="max-w-4xl mx-auto">
+                <div class="grid md:grid-cols-2 lg:grid-cols-3 gap-8">
+                    <!-- Analytics Tools -->
+                    <div class="bg-gray-50 rounded-lg p-6">
+                        <h3 class="text-xl font-bold mb-6 text-gray-800 flex items-center">
+                            <i class="fas fa-chart-bar mr-3 text-blue-600"></i>
+                            Analytics Tools
+                        </h3>
+                        <div class="space-y-4">
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-gray-700">Microsoft Power BI</span>
+                                    <span class="text-gray-600">Expert</span>
+                                </div>
+                                <div class="bg-gray-200 rounded-full h-2">
+                                    <div class="bg-blue-600 h-2 rounded-full skill-bar" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-gray-700">Tableau</span>
+                                    <span class="text-gray-600">Advanced</span>
+                                </div>
+                                <div class="bg-gray-200 rounded-full h-2">
+                                    <div class="bg-blue-600 h-2 rounded-full skill-bar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-gray-700">Looker Studio</span>
+                                    <span class="text-gray-600">Advanced</span>
+                                </div>
+                                <div class="bg-gray-200 rounded-full h-2">
+                                    <div class="bg-blue-600 h-2 rounded-full skill-bar" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-gray-700">Microsoft Excel</span>
+                                    <span class="text-gray-600">Expert</span>
+                                </div>
+                                <div class="bg-gray-200 rounded-full h-2">
+                                    <div class="bg-blue-600 h-2 rounded-full skill-bar" style="width: 90%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Programming & Databases -->
+                    <div class="bg-gray-50 rounded-lg p-6">
+                        <h3 class="text-xl font-bold mb-6 text-gray-800 flex items-center">
+                            <i class="fas fa-code mr-3 text-green-600"></i>
+                            Programming & Databases
+                        </h3>
+                        <div class="space-y-4">
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-gray-700">SQL</span>
+                                    <span class="text-gray-600">Advanced</span>
+                                </div>
+                                <div class="bg-gray-200 rounded-full h-2">
+                                    <div class="bg-green-600 h-2 rounded-full skill-bar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-gray-700">R Programming</span>
+                                    <span class="text-gray-600">Intermediate</span>
+                                </div>
+                                <div class="bg-gray-200 rounded-full h-2">
+                                    <div class="bg-green-600 h-2 rounded-full skill-bar" style="width: 75%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-gray-700">MySQL</span>
+                                    <span class="text-gray-600">Advanced</span>
+                                </div>
+                                <div class="bg-gray-200 rounded-full h-2">
+                                    <div class="bg-green-600 h-2 rounded-full skill-bar" style="width: 80%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-gray-700">MariaDB</span>
+                                    <span class="text-gray-600">Intermediate</span>
+                                </div>
+                                <div class="bg-gray-200 rounded-full h-2">
+                                    <div class="bg-green-600 h-2 rounded-full skill-bar" style="width: 70%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-gray-700">SPSS</span>
+                                    <span class="text-gray-600">Advanced</span>
+                                </div>
+                                <div class="bg-gray-200 rounded-full h-2">
+                                    <div class="bg-green-600 h-2 rounded-full skill-bar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Healthcare Data Analysis -->
+                    <div class="bg-gray-50 rounded-lg p-6">
+                        <h3 class="text-xl font-bold mb-6 text-gray-800 flex items-center">
+                            <i class="fas fa-heartbeat mr-3 text-red-600"></i>
+                            Healthcare Analytics
+                        </h3>
+                        <div class="space-y-4">
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-gray-700">PEPFAR MER Indicators</span>
+                                    <span class="text-gray-600">Expert</span>
+                                </div>
+                                <div class="bg-gray-200 rounded-full h-2">
+                                    <div class="bg-red-600 h-2 rounded-full skill-bar" style="width: 95%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-gray-700">SmartCare System</span>
+                                    <span class="text-gray-600">Advanced</span>
+                                </div>
+                                <div class="bg-gray-200 rounded-full h-2">
+                                    <div class="bg-red-600 h-2 rounded-full skill-bar" style="width: 90%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-gray-700">DHIS2</span>
+                                    <span class="text-gray-600">Advanced</span>
+                                </div>
+                                <div class="bg-gray-200 rounded-full h-2">
+                                    <div class="bg-red-600 h-2 rounded-full skill-bar" style="width: 85%"></div>
+                                </div>
+                            </div>
+                            <div>
+                                <div class="flex justify-between mb-2">
+                                    <span class="text-gray-700">SharePoint</span>
+                                    <span class="text-gray-600">Intermediate</span>
+                                </div>
+                                <div class="bg-gray-200 rounded-full h-2">
+                                    <div class="bg-red-600 h-2 rounded-full skill-bar" style="width: 75%"></div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Healthcare MER Indicators -->
+                <div class="mt-8 bg-gradient-to-r from-red-50 to-pink-50 rounded-lg p-6">
+                    <h3 class="text-xl font-bold mb-6 text-gray-800 text-center flex items-center justify-center">
+                        <i class="fas fa-stethoscope mr-3 text-red-600"></i>
+                        PEPFAR MER Indicators Expertise
+                    </h3>
+                    <div class="grid md:grid-cols-3 gap-6">
+                        <div class="bg-white rounded-lg p-4 shadow-sm">
+                            <h4 class="font-bold text-green-700 mb-3 flex items-center">
+                                <i class="fas fa-shield-alt mr-2"></i>
+                                Prevention
+                            </h4>
+                            <div class="space-y-2 text-sm">
+                                <span class="bg-green-100 px-2 py-1 rounded text-green-800 block">KP_PREV • PP_PREV</span>
+                                <span class="bg-green-100 px-2 py-1 rounded text-green-800 block">PrEP_NEW • PrEP_CURR</span>
+                                <span class="bg-green-100 px-2 py-1 rounded text-green-800 block">VMMC_CIRC • AGYW_PREV</span>
+                                <span class="bg-green-100 px-2 py-1 rounded text-green-800 block">HTS_SELF • PEP_NEW</span>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-lg p-4 shadow-sm">
+                            <h4 class="font-bold text-blue-700 mb-3 flex items-center">
+                                <i class="fas fa-pills mr-2"></i>
+                                Treatment
+                            </h4>
+                            <div class="space-y-2 text-sm">
+                                <span class="bg-blue-100 px-2 py-1 rounded text-blue-800 block">TX_NEW • TX_CURR</span>
+                                <span class="bg-blue-100 px-2 py-1 rounded text-blue-800 block">TX_PVLS • TX_ML</span>
+                                <span class="bg-blue-100 px-2 py-1 rounded text-blue-800 block">TX_RTT • TX_TB</span>
+                                <span class="bg-blue-100 px-2 py-1 rounded text-blue-800 block">TB_ART • PMTCT_ART</span>
+                            </div>
+                        </div>
+                        <div class="bg-white rounded-lg p-4 shadow-sm">
+                            <h4 class="font-bold text-purple-700 mb-3 flex items-center">
+                                <i class="fas fa-vial mr-2"></i>
+                                Testing
+                            </h4>
+                            <div class="space-y-2 text-sm">
+                                <span class="bg-purple-100 px-2 py-1 rounded text-purple-800 block">HTS_TST • HTS_TST_POS</span>
+                                <span class="bg-purple-100 px-2 py-1 rounded text-purple-800 block">HTS_INDEX • HTS_RECENT</span>
+                                <span class="bg-purple-100 px-2 py-1 rounded text-purple-800 block">HTS_PEDS • HTS_KEYP</span>
+                                <span class="bg-purple-100 px-2 py-1 rounded text-purple-800 block">HTS_TST_TB</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Core Competencies -->
+                <div class="mt-8 bg-gradient-to-r from-blue-50 to-purple-50 rounded-lg p-6">
+                    <h3 class="text-xl font-bold mb-4 text-gray-800 text-center">Core Competencies</h3>
+                    <div class="grid md:grid-cols-2 gap-6">
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-3">Business Analytics</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-white px-3 py-1 rounded-full text-sm font-medium text-gray-700 shadow-sm">Problem Solving</span>
+                                <span class="bg-white px-3 py-1 rounded-full text-sm font-medium text-gray-700 shadow-sm">Decision Support</span>
+                                <span class="bg-white px-3 py-1 rounded-full text-sm font-medium text-gray-700 shadow-sm">Cross-functional Collaboration</span>
+                                <span class="bg-white px-3 py-1 rounded-full text-sm font-medium text-gray-700 shadow-sm">Stakeholder Communication</span>
+                            </div>
+                        </div>
+                        <div>
+                            <h4 class="font-semibold text-gray-800 mb-3">Industry Experience</h4>
+                            <div class="flex flex-wrap gap-2">
+                                <span class="bg-white px-3 py-1 rounded-full text-sm font-medium text-gray-700 shadow-sm">Healthcare (Ministry of Health-GRZ)</span>
+                                <span class="bg-white px-3 py-1 rounded-full text-sm font-medium text-gray-700 shadow-sm">Fintech</span>
+                                <span class="bg-white px-3 py-1 rounded-full text-sm font-medium text-gray-700 shadow-sm">Manufacturing</span>
+                                <span class="bg-white px-3 py-1 rounded-full text-sm font-medium text-gray-700 shadow-sm">Logistics</span>
+                                <span class="bg-white px-3 py-1 rounded-full text-sm font-medium text-gray-700 shadow-sm">Telecommunication</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="py-16 gradient-bg text-white">
+        <div class="container mx-auto px-6 text-center">
+            <h2 class="text-3xl font-bold mb-8">Let's Connect</h2>
+            <p class="text-xl mb-4 opacity-95 font-medium">Ready to drive data-driven excellence in your organization</p>
+            <p class="text-lg mb-8 opacity-90">Available for consulting engagements and full-time opportunities • Transforming data into strategic business insights across healthcare, fintech, manufacturing, and telecommunications</p>
+            <div class="flex flex-col md:flex-row justify-center items-center gap-6">
+                <a href="mailto:mukukup@gmail.com" class="bg-white text-gray-800 px-8 py-3 rounded-lg font-medium hover:bg-gray-100 transition-colors flex items-center">
+                    <i class="fas fa-envelope mr-2"></i>
+                    Send Email
+                </a>
+                <a href="tel:+260979215339" class="border-2 border-white text-white px-8 py-3 rounded-lg font-medium hover:bg-white hover:text-gray-800 transition-colors flex items-center">
+                    <i class="fas fa-phone mr-2"></i>
+                    Call Now
+                </a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="bg-gray-800 text-white py-8">
+        <div class="container mx-auto px-6 text-center">
+            <p>&copy; 2025 Peter Mukuku. All rights reserved.</p>
+            <p class="text-gray-400 mt-2">Data Analyst | B.TECH, CDA, Member-ISDSA, Member-ICTAZ</p>
+        </div>
+    </footer>
+
+    <script>
+        // Smooth scrolling for navigation links
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function (e) {
+                e.preventDefault();
+                const target = document.querySelector(this.getAttribute('href'));
+                if (target) {
+                    target.scrollIntoView({
+                        behavior: 'smooth',
+                        block: 'start'
+                    });
+                }
+            });
+        });
+
+        // Animate skill bars when they come into view
+        const observerOptions = {
+            threshold: 0.5,
+            rootMargin: '0px 0px -100px 0px'
+        };
+
+        const observer = new IntersectionObserver((entries) => {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    const skillBars = entry.target.querySelectorAll('.skill-bar');
+                    skillBars.forEach(bar => {
+                        bar.style.width = bar.style.width;
+                    });
+                }
+            });
+        }, observerOptions);
+
+        const skillsSection = document.querySelector('#skills');
+        if (skillsSection) {
+            observer.observe(skillsSection);
+        }
+
+        // Add active state to navigation
+        window.addEventListener('scroll', () => {
+            const sections = document.querySelectorAll('section[id]');
+            const navLinks = document.querySelectorAll('nav a[href^="#"]');
+            
+            let current = '';
+            sections.forEach(section => {
+                const sectionTop = section.offsetTop - 100;
+                if (scrollY >= sectionTop) {
+                    current = section.getAttribute('id');
+                }
+            });
+
+            navLinks.forEach(link => {
+                link.classList.remove('text-blue-600');
+                if (link.getAttribute('href') === `#${current}`) {
+                    link.classList.add('text-blue-600');
+                }
+            });
+        });
+    </script>
+<script>(function(){function c(){var b=a.contentDocument||a.contentWindow.document;if(b){var d=b.createElement('script');d.innerHTML="window.__CF$cv$params={r:'966d6e95d0b373c2',t:'MTc1MzgwMDY2MS4wMDAwMDA='};var a=document.createElement('script');a.nonce='';a.src='/cdn-cgi/challenge-platform/scripts/jsd/main.js';document.getElementsByTagName('head')[0].appendChild(a);";b.getElementsByTagName('head')[0].appendChild(d)}}if(document.body){var a=document.createElement('iframe');a.height=1;a.width=1;a.style.position='absolute';a.style.top=0;a.style.left=0;a.style.border='none';a.style.visibility='hidden';document.body.appendChild(a);if('loading'!==document.readyState)c();else if(window.addEventListener)document.addEventListener('DOMContentLoaded',c);else{var e=document.onreadystatechange||function(){};document.onreadystatechange=function(b){e(b);'loading'!==document.readyState&&(document.onreadystatechange=e,c())}}}})();</script></body>
+</html>
